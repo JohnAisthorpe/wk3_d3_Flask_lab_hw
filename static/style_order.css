@@ -1,0 +1,10 @@
+body {
+    background-color: salmon;
+    font-size: 25mm;
+    font-family: Anton;
+
+}
+
+.list {
+    list-style: none;
+}

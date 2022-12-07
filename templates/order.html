@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_order.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Diplomata+SC&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul>
+        
+
+       <li class="list">
+            <p>
+           {{ book.book_title }} - {{ book.description }} - {{ book.customer_name }} - {{ book.order_date }}
+           </p>
+       </li>
+
+       
+   </ul>
+</body>
+</html>
